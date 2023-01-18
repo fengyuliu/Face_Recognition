@@ -1,0 +1,29 @@
+# Run the code in Matlab
+
+There are 9 Matlab files including 8 executable programs and 1 function:
+Click the run button. You will probably be asked to input a number to choose the dataset:
+#1 data.mat, #2 pose, #3 illumination
+Just type the number: 1, 2 or 3
+
+Task #1 Identifying the subject label from a test image:
+
+Bayes_Classifier.m : Bayes’ Classifier with Maximum Likelihood estimation and Gaussian assumption
+
+k_Nearest_Neighbor.m: k-Nearest Neighbors (k-NN) rule to classify the test data
+
+PCA_Bayes_Classifier.m: Principal Component Analysis (PCA) with Bayes’ Classifier
+
+PCA_k_Nearest_Neighbor.m: Principal Component Analysis (PCA) with k-Nearest Neighbors (k-NN) rule
+
+MDA_Bayes_Classifier.m: Multiple discriminant analysis (MDA) with Bayes’ Classifier
+
+MDA_k_Nearest_Neighbor.m: Multiple discriminant analysis (MDA) with k-Nearest Neighbors (k-NN) rule
+
+
+
+Task #2 Neutral vs. Facial expression classification
+
+Kernel_SVM.m: Kernel SVM classifier by solving the dual optimization problem. You will be asked about the Kernel function that you want to use:
+#1 Radial Basis Function (RBF) kernel, #2 polynomial kernel
+Kernel.m: A function used in Kernel_SVM.m
+Boosted_SVM.m: AdaBoost algorithm for the class of linear SVMs
